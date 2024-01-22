@@ -23,6 +23,7 @@
 				flex: 1;
 				text-align: center;
 			}
+			
 		</style>
 	</head>
 	<body class="is-preload">
@@ -49,14 +50,63 @@
 						</header>
 							<h1>I am Junsen, a software engineer</h1>
 							<p>Hello! I'm a Computer Science undergraduate from the University of Michigan, dedicated to creating impactful solutions through technology. </p>
-						<ul class="actions">
-							<li><a href="assets/Resume.pdf" class="button">Resume</a></li>
-							<li><a onclick="location.href='#two'" class="button">See my works</a></li>
-						</ul>
+						<div class="row">
+							<div class="column">
+							<h4>Programming Languages</h4>
+							C/C++ | Python | JavaScript | Java <br> Bash | SQL | Visual Basics
+							</div>
+							<div class="column">
+								<h4>Software Frameworks</h4>
+								React | Flask | Cypress | MongoDB | Docker | AWS | Firebase
+							</div>
+						</div>
+						<br>
+						<br>
+
+						<details>
+							<summary style="color:black">
+								If you are looking for Full Stack Software Engineer ....
+							</summary>
+							<br>
+							<ul class="actions">
+								<li><a href="assets/fsResume.pdf" class="button">Full Stack Resume</a></li>
+								<li><a onclick="location.href='#five'" class="button">See my works</a></li>
+							</ul>
+						</details>
+						<details>
+							<summary style="color:black">
+								If you are looking for Software QA Engineer ....
+							</summary>
+							<br>
+							<ul class="actions">
+								<li><a href="assets/qaResume.pdf" class="button">QA Resume</a></li>
+								<li><a onclick="location.href='#five'" class="button">See my works</a></li>
+							</ul>
+						</details>
+						<details>
+							<summary style="color:black">
+								If you are looking for Software Systems Engineer ....
+							</summary>
+							<br>
+							<ul class="actions">
+								<li><a href="assets/SystemsResume.pdf" class="button">Systems Resume</a></li>
+								<li><a onclick="location.href='#six'" class="button">See my works</a></li>
+							</ul>
+						</details>
+						<details>
+							<summary style="color:black">
+								If you are looking for Network Software Engineer ....
+							</summary>
+							<br>
+							<ul class="actions">
+								<li><a href="assets/SystemsResume.pdf" class="button">Network Resume</a></li>
+								<li><a onclick="location.href='#six'" class="button">See my works</a></li>
+							</ul>
+						</details>
 					</section>
 				
 				<!-- Three -->
-					<section id="four">
+					<section id="four" class="interactive">
 						<h2>Experience</h2>
 						<h3>Education</h3>
 						<ul>
@@ -70,9 +120,54 @@
 									B.S. in Biopsychology, Cognition, and Neuroscience
 								<br>
 							</li>
+							<details>
+								<summary style="color:black">
+									Relevant Coursework
+								</summary>
+								<ul>
+									<li>
+										EECS 482 Operating System
+									</li>
+									<li>
+										EECS 484 Database System
+									</li>
+									<li>
+										EECS 485 Web System
+									</li>
+									<li>
+										EECS 489 Network System
+									</li>
+									<li>
+										EECS 493 User Interface Development
+									</li>
+									<li>
+										EECS 388 Computer Security
+									</li>
+									<li>
+										EECS 497 Human Centered Software Development
+									</li>
+									<li>
+										EECS 376 Theory of Computation
+									</li>
+									<li>
+										EECS 370 Computer Organization
+									</li>
+									<li>
+										EECS 281 Data Structures & Algorithm
+									</li>
+								</ul>
+							</details>
 						</ul>
 						<h3>Employment</h3>
 						<ul>
+							<li>
+								<b>
+									Instructional Aide - EECS 493 User Interface Dev  | January 2024 - Current
+								</b>
+								<br>
+								<a href="https://cse.engin.umich.edu/">University of Michigan Computer Science & Engineering</a>, Ann Arbor, MI
+								<br>
+							</li>
 							<li>
 								<b>
 									Software Engineering Intern | May 2023 - August 2023 
@@ -94,46 +189,78 @@
 
 				<!-- Two -->
 					<section id="two">
-						<h2>Recent Works and Researches</h2>
+						<h2 style="color:black">Recent Works and Researches</h2>
 						<i>"I have always believed that scientific research is another domain where a form of optimism is essential to success: I have yet to meet a successful scientist who lacks the ability to exaggerate the importance of what he or she is doing, and I believe that someone who lacks a delusional sense of significance will wilt in the face of repeated experiences of multiple small failures and rare successes, the fate of most researchers." </i>
 						<div style="text-align: right;"><i> -- Daniel Kahneman</i></div>
 						<br>
+					</section>
+					<section id="five">
+						<h3>Software Engineering Projects</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<h3>[WIP] RentGPT - LLM Chatbot for personalized rental lease consulting</h3>
-								<p>RentGPT aims to simplify and clarify the rental lease process by providing personalized rental lease consulting through an interactive chatbot. It will allow clients to upload their rental lease agreements for review. The chatbot will perform an initial screening to identify potentially malicious or unfavorable clauses and then proceed to answer any queries the client may have regarding their lease, their rights, or their stay.</p>
+								<h3>StoryLine</h3>
+								<a class="image fit thumb">
+									<img src="images/fulls/storyline.jpg" alt>
+								</a>
+								<p>Developed and launched a multi-user social network in January 2023 using Flask, React, and MySQL, streamlined deployment with shell scripting, and achieved a 90% user satisfaction rate after end-to-end testing and AWS EC2 deployment</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<h3>[WIP] VisionASL - Vision Pro ASL Accessibility Suite</h3>
-								<p>The VisionASL aims to bridge communication gaps for the deaf and hard-of-hearing community by leveraging Apple's VisionOS and Vision Pro Mixed Reality headset. The suite will utilize advanced computer vision and natural language processing technologies to enable seamless translation between American Sign Language (ASL) and spoken English.</p>
+								<h3>InfoQuest</h3>
+								<a class="image fit thumb">
+									<img src="images/fulls/SearchEngine.jpg">
+								</a>
+								<p>Developed InfoQuest, a scalable search engine with a user-friendly interface, employing text and link analysis with log-based tf-idf scoring for efficient search, and a MapReduce pipeline that reduced document processing time from more than 6 hours maximum to 1 minute</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<h3>Walter Reuther Hospital Staffing System</h3>
+								<a class="image fit thumb">
+									<img src="images/fulls/staffingDashboard.jpg">
+								</a>
 								<p>Optimized Staffing Software at Walter Reuther Hospital in an Agile environment, revolutionizing staffing for over 100+ staff by replacing manual scheduling with software</p>
 								<p>*HIPAA Compliant Project</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<h3>Michigan Internal Medicine Residency Database</h3>
+								<a class="image fit thumb">
+									<img src="images/fulls/02.jpg">
+								</a>
 								<p>Revamped <a href="https://medicine.umich.edu/dept/internal-medicine">Michigan Medicine’s</a> Internal Medicine data system, fixing key operational issues and adding user interfaces for efficient resident management. Utilized SQL queries to streamline scheduling, billing, and training processes</p>
 								<p>*HIPAA Compliant Project</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
+								<h3>[WIP] RentGPT - LLM Chatbot for lease consulting</h3>
+								<a class="image fit thumb">
+									<img src="images/fulls/rentGPT.jpg">
+								</a>
+								<p>RentGPT aims to simplify and clarify the rental lease process by providing personalized rental lease consulting through an interactive chatbot. It will allow clients to upload their rental lease agreements for review. The chatbot will perform an initial screening to identify potentially malicious or unfavorable clauses and then proceed to answer any queries the client may have regarding their lease, their rights, or their stay.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
 								<h3>CHEPS Documentation Website</h3>
+								<a class="image fit thumb">
+									<img src="images/fulls/StaffingDocs.jpg">
+								</a>
 								<p>Developed a comprehensive documentation website for <a href="https://cheps.engin.umich.edu">Center for Healthcare Engineering and Patient Safety</a> that dynamically visualizes and securely archives flowcharts along with code annotations, enhancing team collaboration and project transparency</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<h3>StoryLine</h3>
-								<p>Developed and launched a multi-user social network in January 2023 using Flask, React, and MySQL, streamlined deployment with shell scripting, and achieved a 90% user satisfaction rate after end-to-end testing and AWS EC2 deployment</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>InfoQuest</h3>
-								<p>Developed InfoQuest, a scalable search engine with a user-friendly interface, employing text and link analysis with log-based tf-idf scoring for efficient search, and a MapReduce pipeline that reduced document processing time from more than 6 hours maximum to 1 minute</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>[WIP] SoundMate</h3>
-								<p>Building an interactive music social platform</p>
+								<h3>[WIP] VisionASL - Vision Pro ASL Accessibility Suite</h3>
+								<p>The VisionASL aims to bridge communication gaps for the deaf and hard-of-hearing community by leveraging Apple's VisionOS and Vision Pro Mixed Reality headset. The suite will utilize advanced computer vision and natural language processing technologies to enable seamless translation between American Sign Language (ASL) and spoken English.</p>
 							</article>
 						</div>
+					</section>
+					<section id="six">
+						<h3>Software System & Network Projects</h3>
+						<article class="col-6 col-12-xsmall work-item">
+							<h3>Lightweight OS</h3>
+							<p>A robust lightweight operating system for linux with thread library, memory pager and multithreaded network file server. Throughly tested with automated test scripts</p>
+						</article>
+						<article class="col the -6 col-12-xsmall work-item">
+							<h3>Network Load Balancer</h3>
+							<p>An addition to lightweight operating system that can manage and balance network traffics. Build with TCP sockets</p>
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<h3>iPerfer</h3>
+							<p> a network performance measurement tool in C++ with TCP socket programming, complemented by Mininet for simulating various network topologies, enabling thorough analysis and assessment of network behavior</p>
+						</article>
 					</section>
 
 				<!-- Three -->
